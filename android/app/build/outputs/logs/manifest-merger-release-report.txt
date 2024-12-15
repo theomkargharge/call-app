@@ -1,0 +1,611 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:16:5-55:19
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:16:5-55:19
+MERGED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-45:19
+MERGED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-45:19
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:14:5-29:19
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:14:5-29:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/omkar/.gradle/caches/8.11.1/transforms/cdc04e2bdd6e140f14294cf389761e97/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/omkar/.gradle/caches/8.11.1/transforms/cdc04e2bdd6e140f14294cf389761e97/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/omkar/.gradle/caches/8.11.1/transforms/8bec7dbbd4b776f79728c3cd9920c803/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/omkar/.gradle/caches/8.11.1/transforms/8bec7dbbd4b776f79728c3cd9920c803/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/df22ee0a0e0bb3697c71d4b285aa3b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/df22ee0a0e0bb3697c71d4b285aa3b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:17:9-30
+	android:icon
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:19:9-43
+	android:name
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:18:9-42
+manifest
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:1:1-66:12
+MERGED from [:android_intent_plus] /Users/omkar/Desktop/call_app/build/android_intent_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-47:12
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:flutter_contacts] /Users/omkar/Desktop/call_app/build/flutter_contacts/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_phone_call_state] /Users/omkar/Desktop/call_app/build/flutter_phone_call_state/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/omkar/Desktop/call_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/omkar/Desktop/call_app/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/omkar/.gradle/caches/8.11.1/transforms/cdc04e2bdd6e140f14294cf389761e97/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bab4293314f7511a61b1c9aa232397b1/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/omkar/.gradle/caches/8.11.1/transforms/8bec7dbbd4b776f79728c3cd9920c803/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aa252b367c9f6fb15f7756fadad4ecc7/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d3b889c85e3e44ed16737b8a30ff8ff1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/omkar/.gradle/caches/8.11.1/transforms/54d4e6e86fdf65b864d56c4b0561b1b4/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/164fd301487a31ec08ff6eadd0657894/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.media:media:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4ca3de72ae5f3dab1f778f44bcb58c85/transformed/media-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/omkar/.gradle/caches/8.11.1/transforms/4996be52efea8fcdd533b2920951ece3/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6cd52b7b81d2e581c44f3eaa11e1e07f/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/2fd0548e0803c8b1a041e5ecb716700b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c80936330943f80d1179d4a5aeadee88/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/782c8e96792c57839f7527e093c49c4b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/35e41e9c364e4633c37cfccf566e4d04/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/400e9dc9eac7f1812168dbd26adbb643/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7a3d3a00087ac9f65c5699a7e41a2929/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dd10939a590bfb688fabf278e1baf880/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/0f19c6d97e19f6a4c287063cb687f095/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dda24b6348e1bf56aa965526d36e80d8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/768c19f7a774388cd1497410892fab62/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/e9b9603f016e61db55e1a85f592541f3/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5405bb727a783d43b62120f821617105/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/08bd7ce000507a4d06dd35d56c7b2169/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/88f10be13b64bd62c967fe86fb26959c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c3ad1a9591f4a7cb1660b81f6f29659c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/947684d4a809c82e9abd46b017be4a96/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/1747d4c3896bfa4edd36c6d74adc5dca/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f0598cb74c252120ff570b7937f73b2c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/omkar/.gradle/caches/8.11.1/transforms/798cdf21ed899e83a1de17b8b35504b2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4afc1bb6fb1fb133b41cf65aeefeb2e7/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/fb94a8b58a593a52378384573451c181/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/a88dbdfb2bd02116a26ee6fe03831303/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bd356f3724cdcc41ff50857476ad474b/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f32834cc1c41de4865b5a91ebdeea230/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/df22ee0a0e0bb3697c71d4b285aa3b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/61638f2b38617324e94d997c2b864e52/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7dd658adb06b87322193d13819010a3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/319194a53e4e8b88df25fbdcc92ac99f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/58239f10d57b008c55c3f9c0efac4ba3/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aaf47e20090b3424658db50f9e2f4f3b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/746a012159cd112773ecb06c149578ad/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/ef1b046e8f269186c03457c9bd703727/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/omkar/.gradle/caches/8.11.1/transforms/f0ccb8feec2140cbfc92a14661434850/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+	package
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:3:6-67
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:3:23-65
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:4:6-72
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-72
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:4:23-70
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:5:6-75
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-75
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:5:23-73
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:6:6-72
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:6:23-70
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:7:6-73
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:7:23-71
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:8:6-69
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:8:23-67
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:14:5-76
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:8:5-77
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:14:22-74
+queries
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:60:5-65:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:61:9-64:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:62:13-72
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:62:21-70
+data
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:63:13-50
+	android:mimeType
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:63:19-48
+activity#com.example.call_app.MainActivity
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:20:9-41:20
+	android:launchMode
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:23:13-48
+	android:hardwareAccelerated
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:27:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:28:13-55
+	android:exported
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:22:13-36
+	android:configChanges
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:26:13-163
+	android:theme
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:25:13-47
+	android:taskAffinity
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:21:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:33:13-36:17
+	android:resource
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:35:15-52
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:34:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:45:9-47:33
+	android:value
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:47:13-30
+	android:name
+		ADDED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml:46:13-44
+uses-sdk
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:android_intent_plus] /Users/omkar/Desktop/call_app/build/android_intent_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent_plus] /Users/omkar/Desktop/call_app/build/android_intent_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:call_e_log] /Users/omkar/Desktop/call_app/build/call_e_log/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_contacts] /Users/omkar/Desktop/call_app/build/flutter_contacts/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_contacts] /Users/omkar/Desktop/call_app/build/flutter_contacts/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_phone_call_state] /Users/omkar/Desktop/call_app/build/flutter_phone_call_state/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_phone_call_state] /Users/omkar/Desktop/call_app/build/flutter_phone_call_state/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/omkar/Desktop/call_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/omkar/Desktop/call_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/omkar/Desktop/call_app/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/omkar/Desktop/call_app/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:6:5-44
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/omkar/.gradle/caches/8.11.1/transforms/cdc04e2bdd6e140f14294cf389761e97/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/omkar/.gradle/caches/8.11.1/transforms/cdc04e2bdd6e140f14294cf389761e97/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bab4293314f7511a61b1c9aa232397b1/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bab4293314f7511a61b1c9aa232397b1/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/omkar/.gradle/caches/8.11.1/transforms/8bec7dbbd4b776f79728c3cd9920c803/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/omkar/.gradle/caches/8.11.1/transforms/8bec7dbbd4b776f79728c3cd9920c803/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aa252b367c9f6fb15f7756fadad4ecc7/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aa252b367c9f6fb15f7756fadad4ecc7/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d3b889c85e3e44ed16737b8a30ff8ff1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d3b889c85e3e44ed16737b8a30ff8ff1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/omkar/.gradle/caches/8.11.1/transforms/54d4e6e86fdf65b864d56c4b0561b1b4/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/omkar/.gradle/caches/8.11.1/transforms/54d4e6e86fdf65b864d56c4b0561b1b4/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/164fd301487a31ec08ff6eadd0657894/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/164fd301487a31ec08ff6eadd0657894/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.media:media:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4ca3de72ae5f3dab1f778f44bcb58c85/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4ca3de72ae5f3dab1f778f44bcb58c85/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/omkar/.gradle/caches/8.11.1/transforms/4996be52efea8fcdd533b2920951ece3/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/omkar/.gradle/caches/8.11.1/transforms/4996be52efea8fcdd533b2920951ece3/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6cd52b7b81d2e581c44f3eaa11e1e07f/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6cd52b7b81d2e581c44f3eaa11e1e07f/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/2fd0548e0803c8b1a041e5ecb716700b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/2fd0548e0803c8b1a041e5ecb716700b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c80936330943f80d1179d4a5aeadee88/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c80936330943f80d1179d4a5aeadee88/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/782c8e96792c57839f7527e093c49c4b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/782c8e96792c57839f7527e093c49c4b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/35e41e9c364e4633c37cfccf566e4d04/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/35e41e9c364e4633c37cfccf566e4d04/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/400e9dc9eac7f1812168dbd26adbb643/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/400e9dc9eac7f1812168dbd26adbb643/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7a3d3a00087ac9f65c5699a7e41a2929/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7a3d3a00087ac9f65c5699a7e41a2929/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dd10939a590bfb688fabf278e1baf880/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dd10939a590bfb688fabf278e1baf880/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/0f19c6d97e19f6a4c287063cb687f095/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/0f19c6d97e19f6a4c287063cb687f095/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dda24b6348e1bf56aa965526d36e80d8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/dda24b6348e1bf56aa965526d36e80d8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/768c19f7a774388cd1497410892fab62/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/768c19f7a774388cd1497410892fab62/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/e9b9603f016e61db55e1a85f592541f3/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/e9b9603f016e61db55e1a85f592541f3/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5405bb727a783d43b62120f821617105/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5405bb727a783d43b62120f821617105/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/08bd7ce000507a4d06dd35d56c7b2169/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/08bd7ce000507a4d06dd35d56c7b2169/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/88f10be13b64bd62c967fe86fb26959c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/88f10be13b64bd62c967fe86fb26959c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c3ad1a9591f4a7cb1660b81f6f29659c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/c3ad1a9591f4a7cb1660b81f6f29659c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/947684d4a809c82e9abd46b017be4a96/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/947684d4a809c82e9abd46b017be4a96/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/1747d4c3896bfa4edd36c6d74adc5dca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/1747d4c3896bfa4edd36c6d74adc5dca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f0598cb74c252120ff570b7937f73b2c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f0598cb74c252120ff570b7937f73b2c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/omkar/.gradle/caches/8.11.1/transforms/798cdf21ed899e83a1de17b8b35504b2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/omkar/.gradle/caches/8.11.1/transforms/798cdf21ed899e83a1de17b8b35504b2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4afc1bb6fb1fb133b41cf65aeefeb2e7/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/4afc1bb6fb1fb133b41cf65aeefeb2e7/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/fb94a8b58a593a52378384573451c181/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/fb94a8b58a593a52378384573451c181/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/a88dbdfb2bd02116a26ee6fe03831303/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/a88dbdfb2bd02116a26ee6fe03831303/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bd356f3724cdcc41ff50857476ad474b/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/omkar/.gradle/caches/8.11.1/transforms/bd356f3724cdcc41ff50857476ad474b/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f32834cc1c41de4865b5a91ebdeea230/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/f32834cc1c41de4865b5a91ebdeea230/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/df22ee0a0e0bb3697c71d4b285aa3b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/df22ee0a0e0bb3697c71d4b285aa3b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/61638f2b38617324e94d997c2b864e52/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/61638f2b38617324e94d997c2b864e52/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7dd658adb06b87322193d13819010a3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/7dd658adb06b87322193d13819010a3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/319194a53e4e8b88df25fbdcc92ac99f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/319194a53e4e8b88df25fbdcc92ac99f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/58239f10d57b008c55c3f9c0efac4ba3/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/58239f10d57b008c55c3f9c0efac4ba3/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aaf47e20090b3424658db50f9e2f4f3b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/aaf47e20090b3424658db50f9e2f4f3b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/746a012159cd112773ecb06c149578ad/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/omkar/.gradle/caches/8.11.1/transforms/746a012159cd112773ecb06c149578ad/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/ef1b046e8f269186c03457c9bd703727/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/omkar/.gradle/caches/8.11.1/transforms/ef1b046e8f269186c03457c9bd703727/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/omkar/.gradle/caches/8.11.1/transforms/f0ccb8feec2140cbfc92a14661434850/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/omkar/.gradle/caches/8.11.1/transforms/f0ccb8feec2140cbfc92a14661434850/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/omkar/Desktop/call_app/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-89
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-86
+receiver#me.carda.awesome_notifications.DartNotificationActionReceiver
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-89
+receiver#me.carda.awesome_notifications.DartDismissedNotificationReceiver
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-92
+receiver#me.carda.awesome_notifications.DartScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-92
+receiver#me.carda.awesome_notifications.DartRefreshSchedulesReceiver
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-33:20
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-87
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-32:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-86
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-84
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-79
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-107
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-104
+service#me.carda.awesome_notifications.DartBackgroundService
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-38:72
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+	android:permission
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-80
+service#me.carda.awesome_notifications.core.services.ForegroundService
+ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-44:43
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:15:9-20:43
+MERGED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:15:9-20:43
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
+	android:stopWithTask
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-40
+	android:foregroundServiceType
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from [:awesome_notifications] /Users/omkar/Desktop/call_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-90
+uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:9:5-12:47
+	android:maxSdkVersion
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:11:9-35
+	tools:ignore
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:10:9-77
+service#me.carda.awesome_notifications.core.managers.StatusBarManager
+ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:21:9-28:19
+	android:label
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:24:13-61
+	android:exported
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:22:13-89
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:25:13-27:29
+action#android.service.notification.NotificationListenerService
+ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:26:17-99
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.10.0] /Users/omkar/.gradle/caches/8.11.1/transforms/09a097bc63a5847ccf053ed709ee7ee1/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:26:25-96
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/omkar/.gradle/caches/8.11.1/transforms/5d6f5fbc2007a3b5d3ffff731a9ee334/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/omkar/.gradle/caches/8.11.1/transforms/6fd013f44aa51fd6eb916811b2b40fab/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/omkar/.gradle/caches/8.11.1/transforms/3345f42fb31c8df11d3d96268e3b7239/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/omkar/.gradle/caches/8.11.1/transforms/94e0e4f3de1665159c0e8ebc341273b8/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.call_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.call_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/omkar/.gradle/caches/8.11.1/transforms/e71ede96502bdf184c1a5c8083ca6020/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/omkar/.gradle/caches/8.11.1/transforms/d608ac771cf8525cba440f05a2998ca5/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/omkar/.gradle/caches/8.11.1/transforms/b0bb560b434a8ba6b027b8b6b8d1af39/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/omkar/.gradle/caches/8.11.1/transforms/e8c9335d1f96a4cfc6516a2fa810ed3b/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
